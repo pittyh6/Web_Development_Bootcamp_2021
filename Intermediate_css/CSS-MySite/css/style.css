@@ -15,6 +15,22 @@ h2{
 h3,a{
     color: #11999E;
 }
+p{
+    color: #40514E;
+   font-size: 1.3rem;
+}
+hr{
+    border: 10px dotted #EAF6F6;
+    border-top: none;
+    margin: 3% auto;
+    width: 5%;
+}
+.btn{
+    background-color: #ffaeae9c;
+    padding: 0.5%;
+    border-radius: 7%;
+    font-weight: bolder;
+}
 
 .top-container{
     /* color: #33bce5; */    
@@ -41,8 +57,48 @@ h3,a{
 }
 
 .middle-container{    
-   
+   margin-top: 3%;
+}
+.profile img{
+    width: 7%;
+}
+.skills img{    
+    width: 25%;
+}
+.qa-img{
+    float: left;
+}
+.dev-img{
+    float: right;
+    margin-right: 5%;
+}
+.skill-row{
+    line-height: 2;    
+    margin: 100px auto 100px auto; 
+    text-align: left;   
+    width: 50%;
+}
+.qa-content{
+    margin-left: 35%;
+}
+.dev-content{
+    margin-left: 3%;
+}
+.contact-me{
+    line-height: 2;
+    margin: 5% auto;
 }
 .bottom-container{
-  
+    background-color: rgb(195 125 141 / 78%);
+    padding: 3%;
+}
+.bottom-container a{
+    color: #197f83;
+    padding: 1%;
+    font-weight: bolder;
+}
+.bottom-container p{
+    color: #EAF6F6;
+    margin: 1% auto
+
 }
