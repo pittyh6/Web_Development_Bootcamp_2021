@@ -3,7 +3,7 @@
 ![Begin Banner](Documentation/Under_Development.gif)
 
 ## Projects Completed
-* Profile [a link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Profile_project/CSS-MySite)
+* Profile [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Profile_project/CSS-MySite)
 
 ## What I have done
 
