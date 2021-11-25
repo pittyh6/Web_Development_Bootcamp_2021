@@ -1,34 +1,43 @@
-
-
 body{
     background-color: rgba(129, 56, 197, 0.02);
     margin: auto;
     text-align: center;
 }
-
+h1{
+    line-height: 2;
+}
+h1, h2{
+    color: #C37B89;
+}
+h2{
+    font-weight: normal;
+}
+h3,a{
+    color: #11999E;
+}
 
 .top-container{
-    /* color: #33bce5; */
-    color: #C37B89;
+    /* color: #33bce5; */    
     /* background-color: #3f8af938;  */
     background-color: #ffaeae24; 
 
 }
 .top-container h1{
     font-family: "Indie Flower", Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 3rem;
     margin-bottom: auto;
 }
-.top-container p{
-    font-size: 22px;
+.top-container h2{
+    font-size: 2rem;
 }
 .cloud_top{
     position: relative;
-    left: 215px;
+    left: 300px;
     margin-top: 55px;
 }
 .cloud_bottom{
     position: absolute;
+    left: 550px;
 }
 
 .middle-container{    
