@@ -1,3 +1,39 @@
+
+
 body{
-    background-color: rgba(0, 0, 255, 0.096);
+    background-color: rgba(129, 56, 197, 0.02);
+    margin: auto;
+    text-align: center;
+}
+
+
+.top-container{
+    /* color: #33bce5; */
+    color: #C37B89;
+    /* background-color: #3f8af938;  */
+    background-color: #ffaeae24; 
+
+}
+.top-container h1{
+    font-family: "Indie Flower", Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin-bottom: auto;
+}
+.top-container p{
+    font-size: 22px;
+}
+.cloud_top{
+    position: relative;
+    left: 215px;
+    margin-top: 55px;
+}
+.cloud_bottom{
+    position: absolute;
+}
+
+.middle-container{    
+   
+}
+.bottom-container{
+  
 }
