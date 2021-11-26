@@ -1,4 +1,4 @@
-![Begin Banner](Documentation/top-1200x350.gif)
+![Begin Banner](Web_Development_Bootcamp_2021/Documentation/top-1200x350.gif)
 
 # Profile project
 
