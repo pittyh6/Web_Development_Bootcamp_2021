@@ -52,9 +52,15 @@ nav{
 }
 
 /* Feature Section*/
-#features, #testimonials{
+#features {
     padding: 7% 15%;
     text-align: center;
+}
+#testimonials{
+    text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
 }
 #features i{
     color: #ef8172;    
@@ -76,6 +82,7 @@ nav{
     margin: 20px;
     width: 10%;
 }
+/* press */
 #press{
     background-color: #ef8172;
     padding-bottom: 3%;
