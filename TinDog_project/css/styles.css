@@ -57,7 +57,11 @@ nav{
 }
 #features i{
     color: #ef8172;    
+    padding: 0 0 20px 0;
 }
 #features i:hover{
     color: #ff4c68;    
+}
+.feature-box{
+    padding: 0 10% !important;
 }
