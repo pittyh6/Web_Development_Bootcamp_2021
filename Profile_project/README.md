@@ -1,6 +1,6 @@
-## Profile project
+# Profile project
 
-# What I learned
+## What I learned
 * HTML
 * CSS
 
