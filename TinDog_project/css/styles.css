@@ -7,6 +7,14 @@ h1{
     font-size: 3rem !important;
     line-height: 1.5 !important;
 }
+h3{ /*feature*/
+    font-family: "Montserrat" !important ;   
+    font-weight: 900 !important;
+    font-size: 1.5rem;
+}
+p{/*feature*/
+color: #8f8f8f;
+}
 
 .container-fluid{
  padding: 3% 15% !important;
@@ -40,4 +48,16 @@ nav{
 .title-img{
     transform: rotate(20deg);
     width: 50%;
+}
+
+/* Feature Section*/
+#features{
+    padding: 5% 0;
+    text-align: center;
+}
+#features i{
+    color: #ef8172;    
+}
+#features i:hover{
+    color: #ff4c68;    
 }
