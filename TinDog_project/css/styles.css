@@ -105,3 +105,17 @@ nav{
 .pricing-col{
     padding: 3% 2% !important;
 }
+
+
+/* Media query */
+/* title */
+@media (max-width: 1020px){
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+        width: 40%;
+    }
+    #title{
+        text-align: center;
+    }
+}
