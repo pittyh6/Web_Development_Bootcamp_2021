@@ -20,7 +20,7 @@ color: #8f8f8f;
 .container-fluid{
  padding: 3% 15% 7% !important;
 }
-#title{
+#title, #cta{
     background-color: #ff4c68;
     color: #fff;
 }
@@ -106,6 +106,27 @@ nav{
     padding: 3% 2% !important;
 }
 
+/* CTA Section */
+#cta{
+    text-align: center;
+    padding: 5% 38%;
+}
+.download-button-cta{
+    margin: 8% 3% 0 0;
+}
+/* Footer Section */
+#footer{
+    padding: 2%;
+    text-align: center;
+}
+#footer a{
+    color: #000;
+    padding: 1%;
+}
+#footer p{
+    font-size: 0.8rem;
+    margin-top: 1%;
+}
 
 /* Media query */
 /* title */
