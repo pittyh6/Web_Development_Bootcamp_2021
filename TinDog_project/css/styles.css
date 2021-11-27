@@ -18,7 +18,7 @@ color: #8f8f8f;
 }
 
 .container-fluid{
- padding: 3% 15% !important;
+ padding: 3% 15% 7% !important;
 }
 #title{
     background-color: #ff4c68;
@@ -47,13 +47,18 @@ nav{
 }
 /* title image */
 .title-img{
+    position: absolute;
+    right: 22%;
     transform: rotate(20deg);
-    width: 50%;
+    width: 20%;
+    
 }
 
 /* Feature Section*/
 #features {
+    background-color: #fff;
     padding: 7% 15%;
+    position: relative;
     text-align: center;
 }
 #testimonials{
