@@ -1,9 +1,8 @@
 
 # Profile project
+![Begin Banner](Profile-Project.gif)
 
 ## What I learned
 * HTML
 * CSS
 
-## Result
-![Begin Banner](Profile-Project.gif)
