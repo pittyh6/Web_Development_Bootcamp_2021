@@ -1,4 +1,5 @@
 # TinDog project
+![Begin Banner](images/tindog.gif)
 
 ## What I learned
 * HTML
@@ -8,5 +9,4 @@
 * Font awesome
 * Google Fonts
 
-## Result
-![Begin Banner](images/tindog.gif)
+
