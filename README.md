@@ -18,7 +18,7 @@
 * Section 5 = Intermediate CSS ✅
 * Section 6 = Introduction to Bootstrap 4 ✅
 * Section 7 = Intermediate Bootstrap ✅
-* Section 8 = Web Design School - Create a Website that People Love
+* Section 8 = Web Design School - Create a Website that People Love ✅
 * Section 9 = Introduction to Javascript ES6
 * Section 10 = Intermediate Javascript
 * Section 11 = The Document Object Model (DOM)
