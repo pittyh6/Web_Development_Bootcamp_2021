@@ -12,10 +12,10 @@
 ## What I have done
 
 * Section 1 = Front-End Web Development ✅
-* Section 2 = Front-End Web Development ✅
-* Section 3 = Front-End Web Development ✅
-* Section 4 = Front-End Web Development ✅
-* Section 5 = Front-End Web Development ✅
+* Section 2 = Introduction to HTML ✅
+* Section 3 = Intermediate HTML ✅
+* Section 4 = Introduction to CSS ✅
+* Section 5 = Intermediate CSS ✅
 * Section 6 = Introduction to Bootstrap 4 ✅
 * Section 7 = Intermediate Bootstrap ✅
 * Section 8 = Web Design School - Create a Website that People Love
