@@ -10,7 +10,7 @@
 * Jira [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/TinDog_project)
 
 ## Tools
-<img src= Documentation/jira.png  height="90" width="100" ><img src= Documentation/vscode.png  height="90" width="100">
+<img src= Documentation/jira.png  height="90" width="100" ><img src= Documentation/vscode.png  height="90" width="100"><img src= Documentation/html.png  height="90" width="100"><img src= Documentation/css.png  height="90" width="100"><img src= Documentation/js.png  height="90" width="100">
 
 ## What I have done
 
