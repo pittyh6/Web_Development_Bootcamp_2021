@@ -7,7 +7,8 @@
 * TinDog [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/TinDog_project)
 
 ## Management Tools
-* Jira
+<img src= Documentation/jira.png  height="256" width="256">
+* Jira [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Jira%20-%20Sprints%20-%20Managment)
 
 ## What I have done
 
