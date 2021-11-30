@@ -15,6 +15,3 @@ function winnerLoser(randomNumber1, randomNumber2){
     }
 }
 winnerLoser(randomNumber1, randomNumber2);
-
-
-
