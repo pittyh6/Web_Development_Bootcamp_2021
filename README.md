@@ -24,7 +24,7 @@
 * Section 8 = Web Design School - Create a Website that People Love ✅
 * Section 9 = Introduction to Javascript ES6 ✅
 * Section 10 = Intermediate Javascript ✅
-* Section 11 = The Document Object Model (DOM)
+* Section 11 = The Document Object Model (DOM) ✅
 * Section 12 = Boss Level Challenge 1 - The Dicee Game
 * Section 13 = Advanced Javascript and DOM Manipulation
 * Section 14 = jQuery
