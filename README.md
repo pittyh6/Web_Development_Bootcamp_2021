@@ -49,4 +49,4 @@
 * Section 34 = Optional Module: Ask Angela Anything
 * Section 35 = Next Steps
 
-![End Banner](Documentation/bottom-1200x350.gif)
+![End Banner](Documentation/botton-1200x350.gif)
