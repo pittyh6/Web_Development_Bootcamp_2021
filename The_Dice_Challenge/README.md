@@ -1,5 +1,5 @@
 
-# Profile project
+# The Dice Game project
 ![Begin Banner](DiceGame.gif)
 
 ## What I learned
