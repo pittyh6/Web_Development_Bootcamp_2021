@@ -6,8 +6,9 @@
 * Profile [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Profile_project)
 * TinDog [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/TinDog_project)
 
-## Management Tools
-<img src= Documentation/jira.png  height="90" width="100">
+## Tools
+<img src= Documentation/jira.png  height="90" width="100" >
+<img src= Documentation/vscode.png  height="90" width="100">
 
 * Jira [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/TinDog_project)
 
