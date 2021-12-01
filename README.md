@@ -25,8 +25,8 @@
 * Section 9 = Introduction to Javascript ES6 ✅
 * Section 10 = Intermediate Javascript ✅
 * Section 11 = The Document Object Model (DOM) ✅
-* Section 12 = Boss Level Challenge 1 - The Dicee Game
-* Section 13 = Advanced Javascript and DOM Manipulation
+* Section 12 = Boss Level Challenge 1 - The Dicee Game ✅
+* Section 13 = Advanced Javascript and DOM Manipulation ✅
 * Section 14 = jQuery
 * Section 15 = Boss Level Challenge 2 - The Simon Game
 * Section 16 = The Unix Command Line
