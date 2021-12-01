@@ -1,6 +1,7 @@
 /*  Detecting keyboard press*/
 document.addEventListener("keydown", function (event){
-    makeSound(event.key)
+    makeSound(event.key);
+    btnAnimation(event.key);
 });
 
 /* Detecting button press */
@@ -9,7 +10,8 @@ for(var i = 0; i <= numberDrumbtn; i++){
     
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
         var btnText = this.innerHTML;
-        makeSound(btnText)
+        makeSound(btnText);
+        btnAnimation(btnText);
     });    
 }
 
@@ -46,4 +48,15 @@ function makeSound(key){
             break
         default: console.log(key);
     }
+}
+
+setInterval(btnAnimation, 10);
+function btnAnimation(currentKey){
+    var activeBtn = document.querySelector("." + currentKey);
+    console.log(activeBtn);
+    activeBtn.classList.add("pressed");
+
+    setTimeout(function(){
+        activeBtn.classList.remove("pressed");
+    }, 100);
 }
