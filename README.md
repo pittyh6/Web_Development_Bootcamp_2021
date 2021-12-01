@@ -5,6 +5,7 @@
 ## Completed Projects
 * Profile [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Profile_project)
 * TinDog [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/TinDog_project)
+* Dice [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/The_Dice_Challenge)
 * Drum [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Drum_project)
 
 ## Management Tools
