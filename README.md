@@ -8,7 +8,7 @@
 * Drum [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Drum_project)
 
 ## Management Tools
-* Jira [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/TinDog_project)
+* Jira [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Jira%20-%20Sprints%20-%20Managment)
 
 ## Tools
 <img src= Documentation/jira.png  height="90" width="100" ><img src= Documentation/vscode.png  height="90" width="100"><img src= Documentation/html.png  height="90" width="90"><img src= Documentation/css.png  height="90" width="90"><img src= Documentation/js.png  height="90" width="100">
