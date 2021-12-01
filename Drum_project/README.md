@@ -7,5 +7,5 @@
 * HTML
 * CSS
 * DOM
-* eventListener
+* addEventListener
 
