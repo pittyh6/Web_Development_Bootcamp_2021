@@ -32,7 +32,7 @@ function nextSequence() {
     playSound(randomChosenColour)
 
     /*increment level value every time nextSenquence() is called. */
-    $("h1").text("Level " + level);
+    $("#level-title").text("Level " + level);
     level++;
 
     userClickedPattern = [];
