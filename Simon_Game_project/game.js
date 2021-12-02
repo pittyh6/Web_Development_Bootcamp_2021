@@ -2,13 +2,14 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
 var level = 0;
+var started = false;
 
 $(".btn").on("click", function (event) {
     var userChosenColour = event.target.id;
     userClickedPattern.push(userChosenColour);
     playSound(userChosenColour);
     animatePress(userChosenColour);
-    checkAnswer(userClickedPattern[userClickedPattern.length ]); // <<<<<<<-----------------
+    checkAnswer(userClickedPattern[userClickedPattern.length-1]); // <<<<<<<-----------------
 });
 
 function nextSequence() {
@@ -52,7 +53,6 @@ function animatePress(currentColour) {
 }
 
 /* Only call the function once -> the first time that press any key on keyboard */
-var started = false;
 $(document).keydown(function (event) {
     if (!started) {
         nextSequence()
@@ -64,7 +64,7 @@ $(document).keydown(function (event) {
 
 
 function checkAnswer(currentLevel) { // <<<<<<<-----------------
-  if(currentLevel === gamePattern[gamePattern.length]){
+  if(currentLevel === gamePattern[gamePattern.length -1]){
     console.log(userClickedPattern);
     console.log(gamePattern);
     if(JSON.stringify(userClickedPattern) === JSON.stringify(gamePattern)){
@@ -79,6 +79,5 @@ function checkAnswer(currentLevel) { // <<<<<<<-----------------
      }
   }else{
     console.log("wrong");
-  }
- 
+  } 
 } 
