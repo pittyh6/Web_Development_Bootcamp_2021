@@ -7,5 +7,7 @@
 * Array
 * EventListener JQuery
 * JavaScript
-
+* timeOut
+* addClass / removeClass
+* playSound
 
