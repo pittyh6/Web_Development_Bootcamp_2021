@@ -12,5 +12,5 @@
 * playSound
 * if/else
 * call function
-* Math.randonm
-* Math.floor
+* Math.randon()
+* Math.floor()
