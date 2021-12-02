@@ -1,6 +1,7 @@
 var buttonColours = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
+var level = 0;
 
 $(".btn").on("click", function (event) {
     var userChosenColour = event.target.id;
@@ -25,7 +26,13 @@ function nextSequence() {
     /* Get the same btn as color choose random  */
     $(btnChooseRandomByThs).fadeOut(100).fadeIn(100);
 
+    /* Play sound according to color */
     playSound(randomChosenColour)
+
+    /*increment level value every time nextSenquence() is called. */
+    $("h1").text("Level " + level);
+    level ++;
+
 }
 
 function playSound(name) {
@@ -40,3 +47,14 @@ function animatePress(currentColour){
         $("#"+ currentColour).removeClass("pressed");
     }, 100)
 }
+
+/* Only call the function once -> the first time that press any key on keyboard */
+var started = false;
+$(document).keydown(function(event){   
+        if(!started){
+            nextSequence()
+            started = true;
+        }else{
+            console.log("Already playing");
+        }
+});
