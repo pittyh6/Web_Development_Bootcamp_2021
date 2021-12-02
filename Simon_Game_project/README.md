@@ -3,5 +3,9 @@
 ![Begin Banner](.gif)
 
 ## What I learned
+* JQuery
+* Array
+* EventListener JQuery
+* JavaScript
 
 
