@@ -7,6 +7,7 @@
 * TinDog [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/TinDog_project)
 * Dice [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/The_Dice_Challenge)
 * Drum [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Drum_project)
+* Simon Game [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Simon_Game_project)
 
 ## Management Tools
 * Jira [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Jira%20-%20Sprints%20-%20Managment)
@@ -30,7 +31,7 @@
 * Section 12 = Boss Level Challenge 1 - The Dicee Game ✅
 * Section 13 = Advanced Javascript and DOM Manipulation ✅
 * Section 14 = jQuery ✅
-* Section 15 = Boss Level Challenge 2 - The Simon Game
+* Section 15 = Boss Level Challenge 2 - The Simon Game ✅
 * Section 16 = The Unix Command Line
 * Section 17 = Backend Web Development
 * Section 18 = Node.js

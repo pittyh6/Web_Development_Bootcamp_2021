@@ -65,10 +65,7 @@ $(document).keydown(function (event) {
 
 function checkAnswer(currentLevel) { 
     if (userClickedPattern[currentLevel] === gamePattern[currentLevel]) {
-        console.log(userClickedPattern);
-        console.log(gamePattern);
         if (userClickedPattern.length === gamePattern.length) {
-            console.log("Success baby");
             setTimeout(function () {
                 nextSequence();
             }, 1000);
@@ -82,10 +79,9 @@ function checkAnswer(currentLevel) {
         $("#level-title").text("Game Over, Press Any Key to Restart");
         startOver();
     }
-
 }
 
-function startOver(){ // <<<<<<<-----------------
+function startOver(){ 
     level=0;
     gamePattern = [];
     started=false;

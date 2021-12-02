@@ -1,6 +1,6 @@
 
 # Simon Game Project
-![Begin Banner](.gif)
+![Begin Banner](simon_game_project.gif)
 
 ## What I learned
 * JQuery
@@ -10,4 +10,7 @@
 * timeOut
 * addClass / removeClass
 * playSound
-
+* if/else
+* call function
+* Math.randonm
+* Math.floor
