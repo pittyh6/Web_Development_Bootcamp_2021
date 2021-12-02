@@ -8,6 +8,7 @@ $(".btn").on("click", function (event) {
     userClickedPattern.push(userChosenColour);
     playSound(userChosenColour);
     animatePress(userChosenColour);
+    checkAnswer(userClickedPattern[userClickedPattern.length ]); // <<<<<<<-----------------
 });
 
 function nextSequence() {
@@ -31,7 +32,9 @@ function nextSequence() {
 
     /*increment level value every time nextSenquence() is called. */
     $("h1").text("Level " + level);
-    level ++;
+    level++;
+
+    
 
 }
 
@@ -41,20 +44,41 @@ function playSound(name) {
     audio.play();
 }
 
-function animatePress(currentColour){
-    $("#"+ currentColour).addClass("pressed");
-    setTimeout(function(){
-        $("#"+ currentColour).removeClass("pressed");
+function animatePress(currentColour) {
+    $("#" + currentColour).addClass("pressed");
+    setTimeout(function () {
+        $("#" + currentColour).removeClass("pressed");
     }, 100)
 }
 
 /* Only call the function once -> the first time that press any key on keyboard */
 var started = false;
-$(document).keydown(function(event){   
-        if(!started){
-            nextSequence()
-            started = true;
-        }else{
-            console.log("Already playing");
-        }
+$(document).keydown(function (event) {
+    if (!started) {
+        nextSequence()
+        started = true;
+    } else {
+        console.log("Already playing");
+    }
 });
+
+
+function checkAnswer(currentLevel) { // <<<<<<<-----------------
+  if(currentLevel === gamePattern[gamePattern.length]){
+    console.log(userClickedPattern);
+    console.log(gamePattern);
+    if(JSON.stringify(userClickedPattern) === JSON.stringify(gamePattern)){
+        console.log("Success baby");       
+        setTimeout(function(){
+            nextSequence();
+        }, 1000);
+        userClickedPattern = [];
+     }
+     else{
+        console.log("wrong BEBE");
+     }
+  }else{
+    console.log("wrong");
+  }
+ 
+} 
