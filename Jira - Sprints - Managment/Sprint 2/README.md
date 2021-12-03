@@ -3,7 +3,7 @@
 # Jira Sprints
 ![Begin Banner](SecondSprint.png)
 
-## First Sprint
+## Second Sprint
 * Start 01/12/2021 4am
 * End 04/12/2021 11:30pm
 * Ended Up Earlier 03/12/2021 4pm
