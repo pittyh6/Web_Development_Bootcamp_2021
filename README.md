@@ -11,7 +11,8 @@
 
 ## Landing Pages Projects
 #### Landing pages are not part of the bootcamp. Separate study to fix knowledge
-* Bookmark landing page challenge hub [link]()
+* Bookmark landing page challenge hub [link](https://github.com/pittyh6/bookmark_landing_page)
+* Job Listing Filtering challenge hub [link](https://github.com/pittyh6/job_listing_filtering)
 
 ## Management Tools
 * Jira(Sprints) [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Jira%20-%20Sprints%20-%20Managment)
