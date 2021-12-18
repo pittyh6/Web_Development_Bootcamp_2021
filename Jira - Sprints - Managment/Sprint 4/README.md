@@ -15,5 +15,5 @@
 * create a landing page without tutorial, only search on internet document and stack Overflow.
 
 ## What I have done
-Still in progress
+Development Still in progress
 
