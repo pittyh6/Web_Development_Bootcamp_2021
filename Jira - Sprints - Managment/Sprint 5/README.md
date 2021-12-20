@@ -14,4 +14,7 @@
 - Route
 - get route
 - post route
+- postman
+- APIs
+- weather API
 ## What I have done
