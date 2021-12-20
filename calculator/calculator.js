@@ -26,7 +26,12 @@ app.get('/bmiCalculator.html', (req, res) => {
     res.sendFile(__dirname + "/bmiCalculator.html");
 })
 app.post('/bmiCalculator.html', (req, res) => {
-    res.send("fat fat fat fat");
+
+    console.log(req.body);
+    var weight = Number(req.body.weight);
+    var height = Number(req.body.height);
+    var result = weight / (height * height);
+    res.send("Your BMI is " + result)
 })
 
 
