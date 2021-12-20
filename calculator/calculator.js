@@ -13,12 +13,24 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     console.log(req.body);
 
-    var num1 = Number(req.body.num1)
-    var num2 = Number(req.body.num2)
+    var num1 = Number(req.body.num1);
+    var num2 = Number(req.body.num2);
     var result = num1 + num2;
 
     res.send("Result: " + result);
 })
+
+
+//calculate BMI
+app.get('/bmiCalculator.html', (req, res) => {
+    res.sendFile(__dirname + "/bmiCalculator.html");
+})
+app.post('/bmiCalculator.html', (req, res) => {
+    res.send("fat fat fat fat");
+})
+
+
+
 
 app.listen(port, function(){
     console.log('listening on port 3000');
