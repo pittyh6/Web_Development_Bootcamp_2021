@@ -22,14 +22,12 @@ app.post('/', (req, res) => {
 
 
 //calculate BMI
-app.get('/bmiCalculator.html', (req, res) => {
+app.get('/bmiCalculator', (req, res) => {
     res.sendFile(__dirname + "/bmiCalculator.html");
 })
-app.post('/bmiCalculator.html', (req, res) => {
-
-    console.log(req.body);
-    var weight = Number(req.body.weight);
-    var height = Number(req.body.height);
+app.post('/bmiCalculator', (req, res) => {
+    var weight = parseFloat(req.body.weight);
+    var height = parseFloat(req.body.height);
     var result = weight / (height * height);
     res.send("Your BMI is " + result)
 })
