@@ -9,6 +9,7 @@
 * Drum [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Drum_project)
 * Simon Game [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Simon_Game_project)
 * Weather [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/weather_project)
+* Newsletter [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/newsletter_signup)
 
 ## Landing Pages Projects
 #### Landing pages are not part of the bootcamp. Separate study to fix knowledge
@@ -42,7 +43,7 @@
 * Section 17 = Backend Web Development ✅
 * Section 18 = Node.js ✅
 * Section 19 = Express.js with Node.js ✅
-* Section 20 = APIs - Application Programming Interfaces 
+* Section 20 = APIs - Application Programming Interfaces ✅
 * Section 21 = Git, Github and Version Control
 * Section 22 = EJS
 * Section 23 = Boss Level Challenge 3 - Blog Website

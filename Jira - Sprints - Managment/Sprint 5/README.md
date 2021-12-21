@@ -11,6 +11,7 @@
 ## What I have learned
 - nodemon
 - express js
+- bodyParser
 - Route
 - get route
 - post route
@@ -19,4 +20,10 @@
 - weather API
 - res.send()
 - res.write()
+- res.sendFile()
+- res.redirect()
 ## What I have done
+- intro_node
+- my_express_server
+- newsletter_signup
+- weather_project
