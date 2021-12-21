@@ -8,6 +8,7 @@
 * Dice [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/The_Dice_Challenge)
 * Drum [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Drum_project)
 * Simon Game [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/Simon_Game_project)
+* Weather [link](https://github.com/pittyh6/Web_Development_Bootcamp_2021/tree/main/weather_project)
 
 ## Landing Pages Projects
 #### Landing pages are not part of the bootcamp. Separate study to fix knowledge
