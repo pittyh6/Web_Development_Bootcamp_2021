@@ -1,6 +1,6 @@
 
 # Weather project
-![Begin Banner](gif)
+![Begin Banner](weather.gif)
 
 ## What I learned
 - Postman
