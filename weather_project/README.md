@@ -6,3 +6,6 @@
 - Postman
 - API weather
 - Get request using native HTTPS 
+- Express js
+- res.send()
+- res.write()
