@@ -20,10 +20,16 @@ app.get("/", function(req, res) {
             const weatherDesc = weatherData.weather[0].description;
             console.log(weatherDesc);
 
+            const icon = weatherData.weather[0].icon;
+            const iconURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png"
+            res.set("Content-Type","text/html")
+            res.write("<h1>The temperature  in Sydney is " + temp + "° </h1>");
+            res.write('<h3>The weather is currently ' + weatherDesc + '</h3>');     
+            res.write("<img src='" + iconURL + "'>")
+            res.send();
         })
     })
 
-    res.send("Hello");
 });
 
 
