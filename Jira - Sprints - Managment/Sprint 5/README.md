@@ -17,4 +17,6 @@
 - postman
 - APIs
 - weather API
+- res.send()
+- res.write()
 ## What I have done
