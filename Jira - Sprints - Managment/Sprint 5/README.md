@@ -9,6 +9,9 @@
 ### last sprint First Month
 
 ## What I have learned
+- node module exports
+- ejs layout
+- ejs template
 - nodemon
 - express js
 - bodyParser
@@ -27,3 +30,4 @@
 - my_express_server
 - newsletter_signup
 - weather_project
+- todoList_v1
