@@ -36,7 +36,12 @@ app.get("/compose", function(req, res){
   res.render(__dirname + "/views/compose.ejs")
 })
 app.post("/compose", function(req, res){
-  console.log(req.body.postTitle)
+  const post = {
+    titleTxt: req.body.postTitle,
+    bodyTxt: req.body.postBody
+  }
+  console.log(post)
+  console.log(post.bodyTxt)
 })
 
 
