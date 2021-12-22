@@ -1,5 +1,5 @@
 
-# To Do Lis project
+# To Do List project
 ![Begin Banner](todoList.gif)
 
 ## What I learned
