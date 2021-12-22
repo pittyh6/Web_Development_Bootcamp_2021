@@ -31,8 +31,10 @@ app.get("/contact", function(req, res){
   res.render("contact", {contactContentTxt: contactContent})
 })
 
-
-
+//compose page
+app.get("/compose", function(req, res){
+  res.render(__dirname + "/views/compose.ejs")
+})
 
 
 
