@@ -46,8 +46,15 @@ app.post("/compose", function(req, res){
 })
 
 //aby another page
-app.get("/:any", function(req, res) {
-  console.log(req.params.any)
+app.get("/posts/:post", function(req, res) {
+  let requestedTitle = req.params.post  
+  posts.forEach(function(post) {
+    if(post.titleTxt === requestedTitle) {
+      console.log("Match Found")
+    }else{
+      console.log("Not Not NOt")
+    }
+  })
 })
 
 
