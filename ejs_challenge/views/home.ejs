@@ -5,7 +5,8 @@
 
     <!-- New Post -->
    <% posts.forEach(function(post){%>
-    <% console.log(post.titleTxt) %>
+    <h1><%= post.titleTxt%></h1>
+    <p><%= post.bodyTxt%></p>
    <% }) %>
 
 <%- include("partials/footer")-%>
