@@ -18,10 +18,9 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //home page
-app.get("/", function(req, res){
-  res.render('home', {startingContent: homeStartingContent});
-  console.log(posts)
-  // res.render(__dirname + "/views/home.ejs");
+app.get("/", function(req, res){  
+  
+  res.render('home', {startingContent: homeStartingContent, posts: posts})
 })
 
 //about page
