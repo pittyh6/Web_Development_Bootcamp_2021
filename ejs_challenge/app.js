@@ -45,6 +45,11 @@ app.post("/compose", function(req, res){
   res.redirect("/")  
 })
 
+//aby another page
+app.get("/:any", function(req, res) {
+  console.log(req.params.any)
+})
+
 
 
 
