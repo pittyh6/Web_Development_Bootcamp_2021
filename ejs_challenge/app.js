@@ -48,13 +48,10 @@ app.post("/compose", function(req, res){
 
 //aby another page
 app.get("/posts/:post", function(req, res) {
-  const requestedTitle = req.params.post  
+  const requestedTitle = _.lowerCase(req.params.post )  
   posts.forEach(function(post) {
-    let titlelodash = _.lowerCase(post.titleTxt) 
-    let titleLodashKebab = _.kebabCase(titlelodash)
-    console.log("lodash " + titlelodash)
-    console.log("requestedTitle " + requestedTitle)
-    if(requestedTitle === titlelodash || requestedTitle === titleLodashKebab) {
+    let storedTitle = _.lowerCase(post.titleTxt) 
+    if(requestedTitle === storedTitle) {
       console.log("Match Found" )
     }else{
       console.log("Not Not NOt" )      
