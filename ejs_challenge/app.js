@@ -52,12 +52,12 @@ app.get("/posts/:post", function(req, res) {
   posts.forEach(function(post) {
     let storedTitle = _.lowerCase(post.titleTxt) 
     if(requestedTitle === storedTitle) {
-      console.log("Match Found" )
-    }else{
-      console.log("Not Not NOt" )      
+      res.render(__dirname + "/views/post.ejs", {titleContent: storedTitle, textContent: post.bodyTxt  })
     }
   })
 })
+
+
 
 
 
