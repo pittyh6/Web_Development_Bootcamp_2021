@@ -6,7 +6,10 @@
     <!-- New Post -->
    <% posts.forEach(function(post){%>
     <h1><%= post.titleTxt%></h1>
-    <p><%= post.bodyTxt.substring(0,100) + " ..."%></p>
+    <p>
+        <%= post.bodyTxt.substring(0, 100) + " ..."%> 
+        <a href="/posts/<%=post.titleTxt%> "> Read More</a>
+    </p>
    <% }) %>
 
 <%- include("partials/footer")-%>
